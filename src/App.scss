@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 1440px;
   display: flex;
-  height: 99vh;
+  height: 100vh;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -64,13 +64,13 @@ body {
 
   .circle {
     position: absolute;
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    top: 24.4%;
-    left: 27.5%;
+    top: 21%;
+    left: 32.5%;  
     margin: auto;
     background: none;
     transition: 0.4s ease-in-out;
@@ -189,7 +189,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    transform: translate(0, 21rem);
+    transform: translate(0, 8rem);
     font-weight: 700;
     width: 100%;
 
@@ -206,7 +206,7 @@ body {
 
   .numbers__count {
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 10%;
 
     .for__numbers {
@@ -245,7 +245,7 @@ body {
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
-  margin-top: 650px;
+  margin-top: 250px;
 
   .swiper {
     width: 300%;
@@ -330,7 +330,7 @@ body {
       .circle {
         width: 30rem;
         height: 30rem;
-        top: 29.4%;
+        top: 21%;
 
         .dot__style {
           font-size: 1.5rem;
@@ -339,7 +339,7 @@ body {
     }
 
     .dates {
-      transform: translateY(22rem);
+      transform: translateY(14rem);
     }
 
     .numbers__count {
@@ -353,9 +353,9 @@ body {
     }
 
     .swipe__container {
+      margin-top: 400px;
       .swiper {
         width: 260%;
-
         .swipe__container__inner__ul__li {
           h4 {
             font-size: 1.4rem;
@@ -412,7 +412,7 @@ body {
       overflow: hidden;
       width: 90%;
       margin: 0 auto;
-      margin-top: 650px;
+      margin-top: 350px;
 
       .swiper {
         width: 300%;
