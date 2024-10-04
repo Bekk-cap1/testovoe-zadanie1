@@ -1,12 +1,6 @@
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import './App.scss';
 import data from './assets/data';
-import { A11y, Controller, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import { useEffect, useRef, useState } from 'react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/swiper-bundle.css';
 import Vector from './image/Vector.svg'
 import Tochka from './image/ellipse.png'
 
